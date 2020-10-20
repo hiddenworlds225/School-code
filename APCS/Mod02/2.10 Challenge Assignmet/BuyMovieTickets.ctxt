@@ -1,0 +1,6 @@
+#BlueJ class context
+comment0.target=BuyMovieTickets
+comment0.text=\r\n\ Getting\ input\ from\ the\ user.\r\n\r\n\ @author\ Shawn\ Velsor\ \r\n\ @version\ 10/8/2020\r\n
+comment1.params=args
+comment1.target=void\ main(java.lang.String[])
+numComments=2

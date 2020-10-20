@@ -1,0 +1,14 @@
+﻿A Post Mortem Review (PMR) should be created with each project. (Please see Lesson 1.04 p.3 Part 3 for details.) A PMR is an informal journal that lets you reflect on your work, based upon what you learned. In a few paragraphs, you will briefly analyze what went right, what went wrong, and what you might do differently next time. By reflecting on your learning you will grow as a programmer! Below is a sample. 
+
+
+--PMR's should be submitted with each Java project. Type it in the Student Comments section of the Assignment BEFORE you submit it for grading. TIP: Copy the sample below and then change everything within the brackets to reflect your current project. < > 
+SAMPLE: 
+PROJECT TITLE: <01.04 School Information / SchoolInfoCard.java>
+PURPOSE OF PROJECT: <Use print statements to print information about me. >
+VERSION or DATE: <current date or version number> 
+AUTHOR: <student name> 
+************************** PMR***********************************
+<+s>: <Reflect on what went well on the project. What did you learn that was new or surprised you?> 
+<-s>: <Where did you struggle? Did you have any bugs (logic errors) or was there a syntax error that you had to figure out?> 
+******************************************************************************* 
+In the future: <Did what you learn make you think differently about problem solving? Now that you have learned a new skill, are there certain kinds of problems that you would approach differently?>

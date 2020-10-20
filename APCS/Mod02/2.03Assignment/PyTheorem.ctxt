@@ -1,0 +1,6 @@
+#BlueJ class context
+comment0.target=PyTheorem
+comment0.text=\r\nPROJECT\ TITLE\:\ 2.03\ Math\r\nPURPOSE\ OF\ PROJECT\:\ Learning\ how\ to\ use\ the\ Java\ Math\ Module\r\nVERSION\ or\ DATE\:\ 10/1/2020\ \r\nAUTHOR\:\ Shawn\ Velsor\ \r\n\ PMR***********************************\r\n<+s>\:\ Very\ easy\ to\ complete\ math\ wise.\ \r\n<-s>\:\ Didn't\ realaize\ that\ variables\ must\ be\ add\ inside\ static\ functions.\r\n\ \ \ \ \ \ Did\ the\ opposite.\ Fixed\ just\ by\ moving\ the\ variables\ back\ into\ them\r\n\ \r\nIn\ the\ future\:\ \r\n\ \ \ \ Add\ variables\ to\ static\ when\ necessary.\r\n
+comment1.params=args
+comment1.target=void\ main(java.lang.String[])
+numComments=2

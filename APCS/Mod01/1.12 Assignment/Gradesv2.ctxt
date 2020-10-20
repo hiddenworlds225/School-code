@@ -1,0 +1,6 @@
+#BlueJ class context
+comment0.target=Gradesv2
+comment0.text=\r\n\ GradesV2\r\n\ \r\n\ This\ program\ gets\ all\ test\ scores,\ combines\ them,\ and\ \r\n\ prints\ the\ correct\ format\ has\ needed.\r\n\r\n\ @author\ Shawn\ Velsor\r\n\ @version\ 9/21/2020\r\n
+comment1.params=
+comment1.target=void\ main()
+numComments=2
