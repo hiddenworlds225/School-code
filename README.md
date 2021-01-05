@@ -2,7 +2,7 @@
 
 FLVS Code I did, including some college code as well.
 
-(DOES NOT CONTAIN APCS MODULE 5 UNTIL LATER IN THE WEEK)
+(DOES NOT CONTAIN APCS MODULE 5, DUE TO CLURE REQUIREENT EXCLUSION FOR ME)
 
 Any questions, find me on the FLVS Discord.
 
