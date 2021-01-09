@@ -23,10 +23,9 @@ print("C: Pen color")
 print("Q: Quit")
 print("--------------------")
 
-running = True
 exec = False
 
-while running:
+def main():
     control = input("What type of command do you want to use? ").lower()
     
     if(control == "w"):
@@ -70,8 +69,11 @@ while running:
         exec = True
 
     if(control == "q"):
-        running = False
+        exit()
         exec = True
     if(exec == False):
         print("command not recognized")
     exec = False
+
+while True:
+    main()
