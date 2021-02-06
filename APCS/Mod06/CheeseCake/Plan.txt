@@ -1,0 +1,21 @@
+TODO:
+
+Must include 6 cheesecakes
+
+Can use variables for easy to modify sections.
+
+Should use the quantity variable in order to get the correct total amount
+
+String.format() so that the print function comes out correctly, 
+just do it all in the CheeseCake object.
+
+Include necessary items from templates, like the print functions and
+the for-loop.
+
+Make sure that all errors are dealt with and intelisense suggestions are 
+taken into consideration
+
+Done:
+-Arraylist initialization and addition of objects
+-sub-methods.
+-toString() function.
