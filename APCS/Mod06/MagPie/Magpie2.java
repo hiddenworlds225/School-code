@@ -31,7 +31,10 @@ public class Magpie2
     public String getResponse(String statement)
     {
         String response = "";
-        if (findKeyword(statement, "no") >= 0)
+        if(statement.isEmpty()){
+            response = "Person of few words, huh?";
+        }
+        else if (findKeyword(statement, "no") >= 0)
         {
             response = "Why so negative?";
         }
@@ -47,6 +50,9 @@ public class Magpie2
         }
         else if (findKeyword(statement, "dog") >= 0){
             response = "What kind of dog?";
+        }
+        else if(findKeyword(statement, "mrs.wadsworth") >= 0){
+            response  = "Oh, you know her?";
         }
         else if(findKeyword(statement, "computer") >= 0){
             response = "What type of computer you got?";
@@ -145,7 +151,6 @@ public class Magpie2
             if (((before.compareTo("a") < 0) || (before.compareTo("z") > 0)) // before is not a letter
                   && ((after.compareTo("a") < 0) || (after.compareTo("z") > 0)))
             {
-                System.out.println(position);
                 return position;
             }
 

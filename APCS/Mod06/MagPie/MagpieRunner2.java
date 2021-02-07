@@ -5,8 +5,8 @@ package MagPie;
 
  * Code adapted from work by Laurie White for the College Board.
  *
- * @author (enter your name)
- * @version (enter today's date)
+ * @author Shawn Velsor
+ * @version 2/3/2021
  */
 
 import java.util.Scanner;

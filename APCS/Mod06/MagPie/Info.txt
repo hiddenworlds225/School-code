@@ -1,3 +1,2 @@
-This project is incomplete, please do not use for your own safety,
-unless you are looking at it for reference.
+Project is only up to Part 1 of 2 parts.
 -Shawn

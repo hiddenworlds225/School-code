@@ -1,5 +1,10 @@
 package CheeseCake;
- 
+
+/*
+    Object class for 7.02
+*/
+
+
 public class CheeseCake {
     //Pre-Set variables for calculations, set here for easy modification.
     private int servings = 16;
