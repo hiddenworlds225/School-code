@@ -6,6 +6,34 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Launch ElectionTesterV4",
+            "request": "launch",
+            "mainClass": "Elections.ElectionTesterV4",
+            "projectName": "School code_d062a0e0"
+        },
+        {
+            "type": "java",
+            "name": "Launch ElectionTesterV3",
+            "request": "launch",
+            "mainClass": "Elections.ElectionTesterV3",
+            "projectName": "School code_d062a0e0"
+        },
+        {
+            "type": "java",
+            "name": "Launch ElectionTesterV2",
+            "request": "launch",
+            "mainClass": "Elections.ElectionTesterV2",
+            "projectName": "School code_d062a0e0"
+        },
+        {
+            "type": "java",
+            "name": "Launch ElectionTesterV1",
+            "request": "launch",
+            "mainClass": "Elections.ElectionTesterV1",
+            "projectName": "School code_d062a0e0"
+        },
+        {
+            "type": "java",
             "name": "Launch AnnualWeatherV2",
             "request": "launch",
             "mainClass": "AnnualWeatherV2",

@@ -1,5 +1,7 @@
+package Elections;
+
 /**
- * Purpose:  This class defines a Candidate by its name and number of votes.
+ * Purpose: This class defines a Candidate by its name and number of votes.
  *
  * @author Shawn Velsor
  * @version 2/17/2021
