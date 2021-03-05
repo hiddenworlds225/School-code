@@ -7,6 +7,8 @@ package Elections;
  * @Author Shawn Velsor
  * @Date 2/12/2021 
  * 
+ * NOTE: This folder needs a bit of rework. Please refer to ElectionTester V7 & V8 for updated functions.
+ * 
 */
 
 

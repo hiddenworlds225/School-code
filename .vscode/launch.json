@@ -6,6 +6,27 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Launch ElectionTesterV8",
+            "request": "launch",
+            "mainClass": "Elections_7_07.ElectionTesterV8",
+            "projectName": "School code_d062a0e0"
+        },
+        {
+            "type": "java",
+            "name": "Launch ElectionTesterV7",
+            "request": "launch",
+            "mainClass": "Elections_7_07.ElectionTesterV7",
+            "projectName": "School code_d062a0e0"
+        },
+        {
+            "type": "java",
+            "name": "Launch ElectionTesterV5",
+            "request": "launch",
+            "mainClass": "ElectionTesterV5",
+            "projectName": "School code_d062a0e0"
+        },
+        {
+            "type": "java",
             "name": "Launch ElectionTesterV4",
             "request": "launch",
             "mainClass": "Elections.ElectionTesterV4",
