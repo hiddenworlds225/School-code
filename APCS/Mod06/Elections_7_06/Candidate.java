@@ -1,4 +1,4 @@
-package Elections;
+package Elections_7_06;
 
 /**
  * Purpose: This class defines a Candidate by its name and number of votes.

@@ -1,4 +1,4 @@
-package Elections;
+package Elections_7_06;
 
 /*
  *  7.05
