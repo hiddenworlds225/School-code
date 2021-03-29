@@ -1,6 +1,5 @@
 package Gradebook;
 
-import java.util.ArrayList;
 
 /**
  * 7.06 extra challenge
@@ -10,9 +9,9 @@ import java.util.ArrayList;
  */
 public class Student {
 
-    String name;
-    int quizNumber;
-    Double[] grades;
+    private String name;
+    private int quizNumber;
+    private Double[] grades;
 
 
     public Student(String name, Double[] grades){
@@ -35,6 +34,19 @@ public class Student {
 
     public double getGrade(int quiz){
         return grades[quiz];
+    }
+
+    public void addQuiz(double score){
+        double[] newGrades = new double[grades.length + 1];
+        for (int i = 0; i < grades.length; i++) {
+            newGrades[i] = grades[i];
+        }
+        newGrades[newGrades.length - 1] = score;
+    }
+
+    public int getQuizCount(){
+
+        return grades.length;
     }
 
     public String toString(){

@@ -1,3 +1,5 @@
+package Extras;
+
 /**
  * A program to allow students to try out different
  * String methods.
@@ -41,7 +43,6 @@ public class StringExplorer
 
         // Assign a new value to sample. Use a phrase of your choosing.
         // Pad the beginning and end of the string literal with spaces.
-        sample = "    ";
 
         //  Add examples below for the following methods:
         //    trim()
