@@ -6,6 +6,27 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Launch GradebookTester",
+            "request": "launch",
+            "mainClass": "GradebookTester",
+            "projectName": "School code_d062a0e0"
+        },
+        {
+            "type": "java",
+            "name": "Launch MovieTesterV2",
+            "request": "launch",
+            "mainClass": "MovieTesterV2",
+            "projectName": "School code_d062a0e0"
+        },
+        {
+            "type": "java",
+            "name": "Launch TestMusicV2",
+            "request": "launch",
+            "mainClass": "Assignment2.TestMusicV2",
+            "projectName": "School code_d062a0e0"
+        },
+        {
+            "type": "java",
             "name": "Launch TestMusicV1",
             "request": "launch",
             "mainClass": "TestMusicV1",
