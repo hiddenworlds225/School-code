@@ -6,6 +6,27 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Launch IntArrayWorkerTester",
+            "request": "launch",
+            "mainClass": "pixLab.classes.IntArrayWorkerTester",
+            "projectName": "School code_d062a0e0"
+        },
+        {
+            "type": "java",
+            "name": "Launch PictureExplorer",
+            "request": "launch",
+            "mainClass": "pixLab.classes.PictureExplorer",
+            "projectName": "School code_d062a0e0"
+        },
+        {
+            "type": "java",
+            "name": "Launch ColorChooser",
+            "request": "launch",
+            "mainClass": "pixLab.classes.ColorChooser",
+            "projectName": "School code_d062a0e0"
+        },
+        {
+            "type": "java",
             "name": "Launch GradebookTester",
             "request": "launch",
             "mainClass": "GradebookTester",
