@@ -82,7 +82,7 @@ public class FileChooser
       File file = new File(mediaDir);
       if (file.exists())
         fileChooser = new JFileChooser(file);
-    } catch (Exception ex) {
+    } catch (Exception ex) {//
     }
     
     // if no file chooser yet create one

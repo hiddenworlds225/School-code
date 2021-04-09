@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Launch PictureTester",
+            "request": "launch",
+            "mainClass": "pixLab.classes.PictureTester",
+            "projectName": "School code_d062a0e0"
+        },
+        {
+            "type": "java",
             "name": "Launch IntArrayWorkerTester",
             "request": "launch",
             "mainClass": "pixLab.classes.IntArrayWorkerTester",
