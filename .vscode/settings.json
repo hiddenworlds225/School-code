@@ -7,5 +7,9 @@
     },
     "java.project.referencedLibraries": [
         "lib/**/*.jar"
+    ],
+    "java.project.sourcePaths": [
+        "APCS/Mod10/Assignment5",
+        "APCS/Mod10/Assignment8"
     ]
 }

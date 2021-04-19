@@ -6,156 +6,23 @@
     "configurations": [
         {
             "type": "java",
-            "name": "Launch Test",
+            "name": "Launch DeckTester",
             "request": "launch",
-            "mainClass": "TestCheck.Test",
+            "mainClass": "DeckTester",
             "projectName": "School code_d062a0e0"
         },
         {
             "type": "java",
-            "name": "Launch CaesarTester",
+            "name": "Launch CardTester",
             "request": "launch",
-            "mainClass": "Assignment7.CaesarTester",
+            "mainClass": "CardTester",
             "projectName": "School code_d062a0e0"
         },
         {
             "type": "java",
-            "name": "Launch CircleTester",
+            "name": "Launch Fibonacci",
             "request": "launch",
-            "mainClass": "Assignment3.CircleTester",
-            "projectName": "School code_d062a0e0"
-        },
-        {
-            "type": "java",
-            "name": "Launch TerrainTester",
-            "request": "launch",
-            "mainClass": "Assignment2.TerrainTester",
-            "projectName": "School code_d062a0e0"
-        },
-        {
-            "type": "java",
-            "name": "Launch PictureTester",
-            "request": "launch",
-            "mainClass": "pixLab.classes.PictureTester",
-            "projectName": "School code_d062a0e0"
-        },
-        {
-            "type": "java",
-            "name": "Launch IntArrayWorkerTester",
-            "request": "launch",
-            "mainClass": "pixLab.classes.IntArrayWorkerTester",
-            "projectName": "School code_d062a0e0"
-        },
-        {
-            "type": "java",
-            "name": "Launch PictureExplorer",
-            "request": "launch",
-            "mainClass": "pixLab.classes.PictureExplorer",
-            "projectName": "School code_d062a0e0"
-        },
-        {
-            "type": "java",
-            "name": "Launch ColorChooser",
-            "request": "launch",
-            "mainClass": "pixLab.classes.ColorChooser",
-            "projectName": "School code_d062a0e0"
-        },
-        {
-            "type": "java",
-            "name": "Launch GradebookTester",
-            "request": "launch",
-            "mainClass": "GradebookTester",
-            "projectName": "School code_d062a0e0"
-        },
-        {
-            "type": "java",
-            "name": "Launch MovieTesterV2",
-            "request": "launch",
-            "mainClass": "MovieTesterV2",
-            "projectName": "School code_d062a0e0"
-        },
-        {
-            "type": "java",
-            "name": "Launch TestMusicV2",
-            "request": "launch",
-            "mainClass": "Assignment2.TestMusicV2",
-            "projectName": "School code_d062a0e0"
-        },
-        {
-            "type": "java",
-            "name": "Launch TestMusicV1",
-            "request": "launch",
-            "mainClass": "TestMusicV1",
-            "projectName": "School code_d062a0e0"
-        },
-        {
-            "type": "java",
-            "name": "Launch GradebookTester",
-            "request": "launch",
-            "mainClass": "Gradebook.GradebookTester",
-            "projectName": "School code_d062a0e0"
-        },
-        {
-            "type": "java",
-            "name": "Launch ElectionTesterV8",
-            "request": "launch",
-            "mainClass": "Elections_7_07.ElectionTesterV8",
-            "projectName": "School code_d062a0e0"
-        },
-        {
-            "type": "java",
-            "name": "Launch ElectionTesterV7",
-            "request": "launch",
-            "mainClass": "Elections_7_07.ElectionTesterV7",
-            "projectName": "School code_d062a0e0"
-        },
-        {
-            "type": "java",
-            "name": "Launch ElectionTesterV5",
-            "request": "launch",
-            "mainClass": "ElectionTesterV5",
-            "projectName": "School code_d062a0e0"
-        },
-        {
-            "type": "java",
-            "name": "Launch ElectionTesterV4",
-            "request": "launch",
-            "mainClass": "Elections.ElectionTesterV4",
-            "projectName": "School code_d062a0e0"
-        },
-        {
-            "type": "java",
-            "name": "Launch ElectionTesterV3",
-            "request": "launch",
-            "mainClass": "Elections.ElectionTesterV3",
-            "projectName": "School code_d062a0e0"
-        },
-        {
-            "type": "java",
-            "name": "Launch ElectionTesterV2",
-            "request": "launch",
-            "mainClass": "Elections.ElectionTesterV2",
-            "projectName": "School code_d062a0e0"
-        },
-        {
-            "type": "java",
-            "name": "Launch ElectionTesterV1",
-            "request": "launch",
-            "mainClass": "Elections.ElectionTesterV1",
-            "projectName": "School code_d062a0e0"
-        },
-        {
-            "type": "java",
-            "name": "Launch AnnualWeatherV2",
-            "request": "launch",
-            "mainClass": "AnnualWeatherV2",
-            "projectName": "School code_d062a0e0"
-        },
-        {
-            "type": "java",
-            "name": "Launch HurricaneTester",
-            "request": "launch",
-            "mainClass": "Hurricanes.HurricaneTester",
+            "mainClass": "Fibonacci",
             "projectName": "School code_d062a0e0"
         },
         {
