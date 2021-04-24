@@ -1,36 +1,44 @@
 #include <stdio.h>
+#include <conio.h>
 #include <unistd.h>
 #include <limits.h>
+#include <stdbool.h>
 
 FILE *file = NULL;
 int total;
 double average;
 
-int key = 113;
+bool A = true;
 
-void read_file();
-void write_file();
+int read_file();
+int write_file();
 
 int main(void)
 {
-    key = _getch();
-
-    while (key != 113)
+    while (A)
     {
-        read_file();
-        write_file();
+        int err = 0;
+
+        err = read_file();
+        err = write_file();
+
+        if (getch() == 113 || err == -1)
+        {
+            printf("Q key/error detected, stopping.");
+            return 1;
+        }
     }
 
     return 0;
 }
 
-void read_file()
+//Working directory file is different than VSCode version; need to fix later down the line
+
+int read_file(void)
 {
     printf("reading numbers.txt\n");
 
-    //Working directory file is different than VSCode version; need to fix later down the line
-
-    file = fopen("C:\\Users\\Hidden\\Desktop\\School code\\numbers.txt", "r+");
+    file = fopen("C:\\Users\\Hidden\\Desktop\\School code\\numbers.txt", "r");
 
     if (file == NULL)
     {
@@ -39,18 +47,36 @@ void read_file()
     }
 
     int i;
+    int x = 0;
 
-    while (fscanf(file, "%d", &i) == 1)
+    while (fscanf(file, "%d", &i) == 1 && x < 10)
     {
         total += i;
+        x++;
     }
+
+    average = total / 10.0;
+
+    printf("\nAverage is %5.2f\n", average);
+
+    fclose(file);
+    return 0;
 }
 
-void write_file()
+int write_file()
 {
-    average = total / 10;
-    for(int i = 0; i < average -> cnt; i++){
-        
+    file = fopen("C:\\Users\\Hidden\\Desktop\\School code\\numbers.txt", "a");
+
+    if (file != NULL)
+    {
+        fprintf(file, "\nAverage: %5.2f\n", average);
+        fclose(file);
     }
-    fprintf(file, average -> a[i]);
+    else
+    {
+        printf("Failed to open file for appending");
+        return -1;
+    }
+
+    return 0;
 }
